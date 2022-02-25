@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Publicación de aplicaciones tradicionales',
     descripcionCurso:
       'Con el estudio de este componente, el aprendiz estará más y mejor capacitado en lo relativo a publicación de aplicaciones, vida útil de las mismas, redes locales, pruebas de sitios y servicios de <em>hosting</em>. Se afianzará en los conceptos más importantes para realizar el proceso de publicación tradicional de un sitio web.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
