@@ -58,7 +58,8 @@
       .row.BG02.p-4(numero="4" titulo="Búsqueda de dominio en navegador web")
         .col-md-12
           p.mb-0 Al buscar un dominio en un navegador web, se encontrará primero la dirección IP asociada a este dominio, por lo cual se conectará con el servidor DNS primario, para ver si este registro existe. Si el registro no existe en el DNS primario, el servidor DNS consultará con el servidor DNS raíz, quien le indicará si dicho registro existe o si debe recurrir a otro DNS para continuar la búsqueda. Al final, si el registro de dicho dominio existe, la información de la IP es retornada recursivamente a la fuente de la consulta y, entonces, el navegador usa dicha dirección IP para establecer la conexión con el servidor donde está alojada la aplicación web.
-      
+
+    separador     
 </template>
 <script>
 import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite

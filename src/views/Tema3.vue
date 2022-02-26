@@ -24,7 +24,9 @@
 
     .row.mb-5
       BotonesA  
-      
+
+    separador
+         
 </template>
 <script>
 import BotonesA from '../components/BotonesA.vue'

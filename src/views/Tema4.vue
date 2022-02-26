@@ -13,8 +13,8 @@
         p.mb-4 Teniendo en cuenta los elementos vistos a lo largo de este componente formativo: servicios de hosting, servicios de dominio y los protocolos de transferencia de archivos, es momento de comprender y asimilar los pasos para la publicación de un sitio web.
       .col-lg-10.mb-4
         img(src='@/assets/curso/tema4/img02.png')
-      .col-lg-10.mb-4
-        p.mb-0 A continuación, conozca los pasos para publicar un sitio web. Procure llevar registro de los aspectos más relevantes en su libreta personal de apuntes:
+      .col-lg-8.mb-4
+        p.text-center.mb-0 A continuación, conozca los pasos para publicar un sitio web. Procure llevar registro de los aspectos más relevantes en su libreta personal de apuntes:
     
     ImagenInfograficaB.color-acento-contenido.mb-5
       template(v-slot:imagen)

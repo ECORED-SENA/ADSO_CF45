@@ -20,43 +20,39 @@
               br  
               | Dicho de una manera muy simple, Internet es un gran grupo de servidores interconectados, unos con otros, a los cuales las personas acceden para el consumo de servicios desde sus equipos personales; dentro de esta gran red, hay unos servidores especiales encargados de ofrecer el servicio de #[i hosting]. 
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .BG01.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/tema1/img02.svg')
-        h5.text-center Funcionamiento del servicio #[i hosting]
-        
-        
-      .BG01.p-4
-        .row.justify-content-center.mb-4
-          .col-8
+    .row.justify-content-center.mb-4
+      .col-lg-6
+        SlyderF.mb-5(columnas="col-12")
+          .BG01.p-4
+            .row.justify-content-center.mb-4
+              .col-10
+                img(src='@/assets/curso/tema1/img02.svg')
+            h5.text-center Funcionamiento del servicio #[i hosting]
+          .BG01.p-4
             h5.text-center Trámites y gestión del servicio de #[i hosting]
             p.text-center Siguiendo la analogía con un servicio de alquiler de un inmueble, cualquier otro servicio, como adquirir una dirección, un número de teléfono, servicios públicos, debe ser tramitado de manera independiente con otros proveedores. Así mismo sucede con Internet: cualquier otro servicio además de sólo almacenamiento de archivos, de productos y servicios de software, debe ser adquirido de forma adicional de acuerdo con las necesidades.
-
-      .BG01.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/tema1/img03.svg' alt='AvatarTop')
-            h5.text-center Modalidades o tipos de #[i hosting]
-
-      .BG01.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            h5.text-center Funcionamiento del servicio #[i hosting]
-            p.text-center El servicio de #[i hosting] es similar al proceso de arrendamiento de inmuebles, es decir, en ambos casos se debe hacer el pago de un alquiler y este pago brinda autorización para utilizar un espacio donde es posible poner cosas, pero solo eso. 
-
-      .BG01.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
-            h5.text-center Trásmites y gestión del servicio de #[i hosting]
-
-      .BG01.p-4
-        .row.justify-content-center.mb-4
-          .col-8
-            h5.text-center Modalidades o tipos de #[i hosting]
-            p.text-center El servicio de #[i hosting] es similar al proceso de arrendamiento de inmuebles, es decir, en ambos casos se debe hacer el pago de un alquiler y este pago brinda autorización para utilizar un espacio donde es posible poner cosas, pero solo eso. 
+          .BG01.p-4
+            .row.justify-content-center.mb-4
+              .col-10
+                img(src='@/assets/curso/tema1/img03.svg' alt='AvatarTop')
+                h5.text-center Modalidades o tipos de #[i hosting]
+          .BG01.p-4
+            .row.justify-content-center.mb-4
+              .col-10
+                h5.text-center Funcionamiento del servicio #[i hosting]
+                p.text-center El servicio de #[i hosting] es similar al proceso de arrendamiento de inmuebles, es decir, en ambos casos se debe hacer el pago de un alquiler y este pago brinda autorización para utilizar un espacio donde es posible poner cosas, pero solo eso. 
+          .BG01.p-4
+            .row.justify-content-center.mb-4
+              .col-10
+                img(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
+                h5.text-center Trásmites y gestión del servicio de #[i hosting]
+          .BG01.p-4
+            .row.justify-content-center.mb-4
+              .col-10
+                h5.text-center Modalidades o tipos de #[i hosting]
+                p.text-center El servicio de #[i hosting] es similar al proceso de arrendamiento de inmuebles, es decir, en ambos casos se debe hacer el pago de un alquiler y este pago brinda autorización para utilizar un espacio donde es posible poner cosas, pero solo eso. 
+    
+    p.mb-4 Dentro de las modalidades o tipos de hosting, destacan las que se muestran a continuación:
 
     LineaTiempoD.color-acento-contenido
       .row.BG02.p-4(numero="1" titulo="Hosting compartido")
@@ -121,25 +117,99 @@
       .col-lg-6      
         img.mb-4(src='@/assets/curso/tema1/img12.svg')
     
-    
-      
-    
-
-
+    #MapaGroup01.row.justify-content-center.p-4.mb-4
+      .col-lg-5.mb-4
+        button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
+          .row.justify-content-center
+            .col-lg-10.col-sm-6
+              h4.mb-0 Proveedores de servicios
+      .col-lg-5.mb-4
+        button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
+          .row.justify-content-center
+            .indicador--hover(v-if="indicadorImagenZoom")
+            .col-lg-10.col-sm-6
+              h4.mb-0 Herramientas de monitoreo  
         
-          
+      .col-lg-10.position-relative
+        .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
+          .row.justify-content-center
+            .col-lg-10
+              figure.mb-4
+                img.mb-4(src='@/assets/curso/tema1/img15.svg')
+              .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
+                h5 Tabla 1.
+                span Proveedores de hosting
+              
+              .tabla-b.color-acento-contenido.mb-5 
+                table
+                  thead
+                    tr
+                      th(style="background-color: #FFA726; color: #000").text-center Proveedor
+                      th(style="background-color: #FFA726; color: #000").text-center Uptime
+                  tbody
+                    tr
+                      td(style="background-color: #D2F3F7; color: #000").text-center GoDaddy MX
+                      td(style="background-color: #D2F3F7; color: #000").text-center 99.9%
+                    tr
+                      td(style="background-color: #fff; color: #000").text-center A2 Hosting
+                      td(style="background-color: #fff; color: #000").text-center 99.99%
+                    tr
+                      td(style="background-color: #D2F3F7; color: #000").text-center TMD Hosting
+                      td(style="background-color: #D2F3F7; color: #000").text-center 99.99% en Hosting compartido, y 99.9999% en VPS y Cloud Hosting
+                    tr
+                      td(style="background-color: #fff; color: #000").text-center Siteground Hosting LATAM
+                      td(style="background-color: #fff; color: #000").text-center 99.99%
+                    
+                    tr
+                      td(style="background-color: #D2F3F7; color: #000").text-center Wix
+                      td(style="background-color: #D2F3F7; color: #000").text-center 99.8%
+                    tr
+                      td(style="background-color: #fff; color: #000").text-center Amazon EC2/EBS
+                      td(style="background-color: #fff; color: #000").text-center 99.95%
+                    tr
+                      td(style="background-color: #D2F3F7; color: #000").text-center Google Compute Engine
+                      td(style="background-color: #D2F3F7; color: #000").text-center 99.5%
+                    tr
+                      td(style="background-color: #fff; color: #000").text-center Hostgator
+                      td(style="background-color: #fff; color: #000").text-center 99.99%
+        
+        .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
+          .row.justify-content-center
+            .col-lg-10
+              figure.mb-4
+                img.mb-4(src='@/assets/curso/tema1/img15.svg') 
+              .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
+                h5 Tabla 2.
+                span Herramientas de monitoreo web
 
-
+              .tabla-b.color-acento-contenido.mb-5 
+                table
+                  thead
+                    tr
+                      th(style="background-color: #FFA726; color: #000").text-center Proveedor
+                      th(style="background-color: #FFA726; color: #000").text-center Dirección
+                  tbody
+                    tr
+                      td(style="background-color: #D2F3F7; color: #000").text-center Pingdom Free
+                      td(style="background-color: #D2F3F7; color: #000").text-center https://www.pingdom.com/website-monitoring/
+                    tr
+                      td(style="background-color: #fff; color: #000").text-center StatusCake Community
+                      td(style="background-color: #fff; color: #000").text-center https://app.statuscake.com/Try/?Plan=FREE
+                    tr
+                      td(style="background-color: #D2F3F7; color: #000").text-center RapidSpike Basic
+                      td(style="background-color: #D2F3F7; color: #000").text-center https://www.rapidspike.com/free-30-day-trial/
+                    tr
+                      td(style="background-color: #fff; color: #000").text-center UptimeRobot
+                      td(style="background-color: #fff; color: #000").text-center https://uptimerobot.com/signUp
+  
+    separador
 </template>
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
-    // variables de vue
+    indicadorImagenZoom: true,
   }),
   mounted() {
     this.$nextTick(() => {
