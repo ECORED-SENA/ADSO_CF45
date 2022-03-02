@@ -3,10 +3,10 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal
+    .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span
-          i.fas.fa-info
+          i.fas.fa-info.text-white
       h1 Introducción
     
     .row.justify-content-center.mb-4

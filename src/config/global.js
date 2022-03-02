@@ -161,6 +161,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Jonathan Guerrero Astaiza',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca - Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro agropecuario La Granja, Regional Tolima',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {

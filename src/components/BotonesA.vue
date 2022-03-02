@@ -33,7 +33,7 @@ export default {
         pos_y: '2.7%',
         titulo: 'Variedad de aplicaciones',
         texto1:
-          'Hoy existen muchas aplicaciones que encapsulan toda la lógica asociada a las conexiones cliente y servidor por lo que la transferencia de archivos es mucho más simple',
+          'Hoy existen muchas aplicaciones que encapsulan toda la lógica asociada a las conexiones cliente y servidor por lo que la transferencia de archivos es mucho más simple.',
       },
       {
         img: require('@/assets/curso/botones/img04.svg'),
@@ -51,7 +51,7 @@ export default {
         pos_y: '2.7%',
         titulo: 'Transferencia de archivos',
         texto1:
-          'Para publicar las aplicaciones web y que estén disponibles en Internet, se deben transferir los archivos desde la máquina local hacia el servidor encargado de alojarlos en Internet, es decir. el host.',
+          'Para publicar las aplicaciones web y que estén disponibles en Internet, se deben transferir los archivos desde la máquina local hacia el servidor encargado de alojarlos en Internet, es decir el host.',
       },
       {
         img: require('@/assets/curso/botones/img08.svg'),

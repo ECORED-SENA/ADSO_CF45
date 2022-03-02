@@ -13,7 +13,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/sintesis/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El proceso de software no termina con la construcción de la aplicación; existe, también, una fase de despliegue y mantenimiento del producto desarrollado, la cual es, quizás, uno de los componentes más olvidados por los desarrolladores de software, pero el más importante para los clientes. El proceso de despliegue, particularmente en las aplicaciones web, requiere la adquisición de servicios de hosting y de dominio, los cuales deben también ceñirse a las características particulares de los requerimientos funcionales y, principalmente, a los requisitos no funcionales establecidos.
+            p.mb-0 El proceso de #[i software] no termina con la construcción de la aplicación; existe, también, una fase de despliegue y mantenimiento del producto desarrollado, la cual es, quizás, uno de los componentes más olvidados por los desarrolladores de #[i software], pero el más importante para los clientes. El proceso de despliegue, particularmente en las aplicaciones #[i web], requiere la adquisición de servicios de #[i hosting] y de dominio, los cuales deben también ceñirse a las características particulares de los requerimientos funcionales y, principalmente, a los requisitos no funcionales establecidos.
       .col-lg-10
         p.text-center Analice el mapa de conceptos que se muestra a continuación y haga su propia síntesis del contenido trabajado en este componente formativo. Procure hacer registro de ello en su libreta personal de apuntes:
 
