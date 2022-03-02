@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Publicación de aplicaciones tradicionales',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz estará más y mejor capacitado en lo relativo a publicación de aplicaciones, vida útil de las mismas, redes locales, pruebas de sitios y servicios de <em>hosting</em>. Se afianzará en los conceptos más importantes para realizar el proceso de publicación tradicional de un sitio web.',
+      'Con el estudio de este componente, el aprendiz estará más y mejor capacitado en lo relativo a publicación de aplicaciones, vida útil de las mismas, redes locales, pruebas de sitios y servicios de <em>hosting</em>. Se afianzará en los conceptos más importantes para realizar el proceso de publicación tradicional de un sitio <em>web</em>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -90,12 +90,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Comparahosting (2020). El hosting web: ¿Qué es, para qué sirve y qué tipos hay?',
+        'Comparahosting (2020). El <em>hosting web</em>: ¿Qué es, para qué sirve y qué tipos hay?',
       link: 'https://www.comparahosting.com/hosting/',
     },
     {
       referencia:
-        'De Souza, I. (2019). Aprende sobre los tipos de hosting más importantes de la actualidad y sus funciones. RockContent',
+        'De Souza, I. (2019). Aprende sobre los tipos de <em>hosting</em> más importantes de la actualidad y sus funciones. RockContent',
       link: 'https://rockcontent.com/es/blog/tipos-de-hosting/',
     },
     {
@@ -105,7 +105,7 @@ export default {
     },
     {
       referencia:
-        'Luisescoffie. (2017). 4 herramientas gratuitas para conocer el Uptime de tu sitio web.',
+        'Luisescoffie. (2017). 4 herramientas gratuitas para conocer el <em>Uptime</em> de tu sitio <em>web</em>.',
       link:
         'https://luisescoffie.com/4-herramientas-gratuitas-para-conocer-el-uptime-de-tu-sitio-web/',
     },
@@ -198,7 +198,7 @@ export default {
       },
       {
         nombre: 'Oscar Ivan Uribe Ortiz',
-        cargo: 'Diseño web',
+        cargo: 'Diseño <em>web</em>',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

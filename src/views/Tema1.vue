@@ -79,7 +79,7 @@
         .col-md-4.mb-4.mb-md-0
           img(src='@/assets/curso/tema1/img08.svg')
         .col-md-8.mb-4.mb-md-0
-          p.mb-0 #[i Hosting] que usa características de almacenamiento en la nube. Un proyecto es almacenado de forma distribuida en varios servidores interconectados en la nube, por lo que, si existiera una falla en alguno de los servidores, esta es compensada por otro de los servidores de la nube. Este tipo de servicio es más eficiente que el de hosting dedicado, ya que las ventajas de la nube permitirían una mayor disponibilidad, tolerancia a fallos y mayor seguridad. También es de gran capacidad de adaptación en tiempo real, ya que las características de los servicios contratados pueden ser reajustados más fácilmente.  El alquiler se da por los recursos realmente utilizados y no con planes fijos, como en los otros modelos de #[i hosting].
+          p.mb-0 #[i Hosting] que usa características de almacenamiento en la nube. Un proyecto es almacenado de forma distribuida en varios servidores interconectados en la nube, por lo que, si existiera una falla en alguno de los servidores, esta es compensada por otro de los servidores de la nube. Este tipo de servicio es más eficiente que el de #[i hosting] dedicado, ya que las ventajas de la nube permitirían una mayor disponibilidad, tolerancia a fallos y mayor seguridad. También es de gran capacidad de adaptación en tiempo real, ya que las características de los servicios contratados pueden ser reajustados más fácilmente.  El alquiler se da por los recursos realmente utilizados y no con planes fijos, como en los otros modelos de #[i hosting].
       
       .row.BG02.p-4(numero="5" titulo="<em>Hosting</em> gratuito")
         .col-md-4.mb-4.mb-md-0
@@ -182,7 +182,7 @@
                 img.mb-4(src='@/assets/curso/tema1/img15.svg') 
               .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
                 h5 Tabla 2.
-                span Herramientas de monitoreo web
+                span Herramientas de monitoreo #[i web]
 
               .tabla-b.color-acento-contenido.mb-5 
                 table
@@ -191,18 +191,18 @@
                       th(style="background-color: #FFA726; color: #000").text-center Proveedor
                       th(style="background-color: #FFA726; color: #000").text-center Dirección
                   tbody
-                    tr
+                    tr 
                       td(style="background-color: #D2F3F7; color: #000").text-center Pingdom Free
-                      td(style="background-color: #D2F3F7; color: #000").text-center https://www.pingdom.com/website-monitoring/
+                      td(style="background-color: #D2F3F7; color: #000").text-center <a href="https://www.pingdom.com/website-monitoring/" target="_blank">https://www.pingdom.com/website-monitoring/</a>
                     tr
                       td(style="background-color: #fff; color: #000").text-center StatusCake Community
-                      td(style="background-color: #fff; color: #000").text-center https://app.statuscake.com/Try/?Plan=FREE
+                      td(style="background-color: #fff; color: #000").text-center <a href="https://app.statuscake.com/Try/?Plan=FREE" target="_blank">https://app.statuscake.com/Try/?Plan=FREE</a>
                     tr
                       td(style="background-color: #D2F3F7; color: #000").text-center RapidSpike Basic
-                      td(style="background-color: #D2F3F7; color: #000").text-center https://www.rapidspike.com/free-30-day-trial/
+                      td(style="background-color: #D2F3F7; color: #000").text-center <a href="https://www.rapidspike.com/free-30-day-trial/" target="_blank">https://www.rapidspike.com/free-30-day-trial/</a>
                     tr
                       td(style="background-color: #fff; color: #000").text-center #[i UptimeRobot]
-                      td(style="background-color: #fff; color: #000").text-center https://uptimerobot.com/signUp
+                      td(style="background-color: #fff; color: #000").text-center <a href="https://uptimerobot.com/signUp" target="_blank">https://uptimerobot.com/signUp</a>
   
     separador
 </template>
