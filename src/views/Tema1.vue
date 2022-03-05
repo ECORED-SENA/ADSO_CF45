@@ -14,7 +14,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4(data-aos="fade-left")
             p.mb-0 El servicio de #[i hosting] corresponde a uno de los dos servicios indispensables para la publicación de una aplicación #[i web], y consiste, esencialmente, en un servicio de alojamiento de archivos de los productos y servicios de #[i software] que requieren ser publicados en internet.
               br
               br  
@@ -23,7 +23,7 @@
     p.mb-4.text-center Estos son algunos aspectos generales y de mucha importancia que usted debe tener en cuenta en lo relacionado con los servicios de #[i hosting]:
 
     .row.justify-content-center.mb-4
-      .col-lg-6
+      .col-lg-6(data-aos="flip-up")
         SlyderF.mb-5(columnas="col-12")
           .BGIMG04.p-4
             .row.justify-content-center.mb-4
@@ -116,20 +116,20 @@
               p Cada proveedor de servicio de #[i hosting] debe hacer público el valor del #[i uptime] ofrecido a sus clientes dentro de los términos y condiciones de los servicios alquilados.  
     
     .row.justify-content-center.mb-4
-      .col-lg-6      
+      .col-lg-6(data-aos="fade-down")      
         img.mb-4(src='@/assets/curso/tema1/img12.svg')
     
     #MapaGroup01.row.justify-content-center.p-4.mb-4
       .col-lg-5.mb-4
         button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
           .row.justify-content-center
-            .col-lg-10.col-sm-6
+            .col-lg-10.col-sm-6(data-aos="fade-right")
               h4.mb-0 Proveedores de servicios
       .col-lg-5.mb-4
         button.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
           .row.justify-content-center
             .indicador--hover(v-if="indicadorImagenZoom")
-            .col-lg-10.col-sm-6
+            .col-lg-10.col-sm-6(data-aos="fade-left")
               h4.mb-0 Herramientas de monitoreo  
         
       .col-lg-10.position-relative

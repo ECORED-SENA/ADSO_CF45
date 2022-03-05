@@ -14,19 +14,19 @@
           .col-lg-7.mb-4
             <br><br><br><br><br><br><br><br><br><br><br>
             p El dominio corresponde al segundo elemento clave al momento de publicar una aplicación o servicio #[i web], y se trata de un nombre único mediante el cual todos los servicios #[i web] podrán ser localizados en Internet. Al trabajar en la red, todos los elementos tienen una dirección por medio de la cual pueden ser ubicados, esta dirección corresponde a un conjunto de números y se le conoce con el nombre de dirección IP.
-          .col-12.cajon.color-acento-contenido.mb-4.p-4
+          .col-12.cajon.color-acento-contenido.mb-4.p-4(data-aos="fade-right")
             p La dirección IP puede ser de difícil recordación para la mayoría de las personas, por lo que es indispensable asociarla con un nombre que facilite el acceso de los usuarios y clientes. Este nombre es lo que se conoce como #[strong dominio]. 
           .col-12.mb-0
             p En el siguiente recurso, profundice en los aspectos y generalidades más importantes de los servicios de dominio:
 
-    figure.mb-5
+    figure.mb-5(data-aos="flip-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/zj3yQ9nqCf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center.mb-5
       .col-lg-10.BG03.p-0
         .row.align-items-center.mb-4
-          .col-lg-4.p-0
+          .col-lg-4.p-0(data-aos="fade-right")
             figure.mb-0
               img(src='@/assets/curso/tema2/img02.png')
           .col-lg-8.p-4

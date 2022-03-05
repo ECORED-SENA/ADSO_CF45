@@ -11,12 +11,12 @@
     .row.BGIMG03.justify-content-center.p-4.mb-4
       .col-lg-10.mb-4
         p.mb-4 Teniendo en cuenta los elementos vistos a lo largo de este componente formativo: servicios de #[i hosting], servicios de dominio y los protocolos de transferencia de archivos, es momento de comprender y asimilar los pasos para la publicación de un sitio #[i web].
-      .col-lg-10.mb-4
+      .col-lg-10.mb-4(data-aos="fade-down")
         img(src='@/assets/curso/tema4/img02.png')
       .col-lg-8.mb-4
         p.text-center.mb-0 A continuación, conozca los pasos para publicar un sitio #[i web]. Procure llevar registro de los aspectos más relevantes en su libreta personal de apuntes:
     
-    ImagenInfograficaB.color-acento-contenido.mb-5
+    ImagenInfograficaB.color-acento-contenido.mb-5(data-aos="flip-up")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema4/img03.png')
@@ -73,7 +73,7 @@
           .row.align-items-center.justify-content-center
             .col.mb-4.mb-lg-0
               p.mb-0 Conozca y profundice en la forma de desplegar un sitio utilizando servicios de #[i hosting] y de dominios gratuitos. Visualice con atención el video “Publicación y prueba sitios”. Procure llevar registro de los aspectos más destacados en su libreta personal de apuntes.
-            .col-auto
+            .col-auto(data-aos="fade-left")
               a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/ayD5ImlZ1NA" target="_blank")
                 figure.efect1
                   img(src="@/assets/curso/tema4/img04.svg", style="width:150px").m-auto

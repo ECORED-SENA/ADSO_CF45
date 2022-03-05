@@ -13,16 +13,16 @@
         img(src='@/assets/curso/tema3/img02.svg')
       .col-lg-8.mb-4
         p.mb-0 FTP hace referencia a un #[strong protocolo de transferencia de archivos] que tiene más de 50 años de antigüedad, pero ampliamente utilizado para la transferencia de información entre equipos conectados por red. Por medio de este protocolo, una máquina conectada en red con otra podrá visualizar y compartir información.
-      .col-lg-8.mb-4
+      .col-lg-8.mb-4(data-aos="fade-down")
         img(src='@/assets/curso/tema3/img03.png')
       .col-lg-6.mb-4
         p.mb-0 Para la transferencia de archivos, se utiliza una estructura de tipo cliente servidor, donde la máquina cliente se conecta a la máquina servidora, para visualizar y hacer envío de datos utilizando los puertos 20 y 21.
-      .col-lg-7.mb-0
+      .col-lg-7.mb-0(data-aos="fade-down")
         img(src='@/assets/curso/tema3/img04.png')
       .col-lg-6.BG04.p-2
         p.text-center.mb-0 Tenga en cuenta los siguientes aspectos de la transferencia de archivos:
 
-    .row.mb-5
+    .row.mb-5(data-aos="flip-up")
       BotonesA  
 
     separador
