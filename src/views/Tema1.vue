@@ -47,7 +47,7 @@
             .row.justify-content-center.mb-4
               .col-10
                 img(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
-                h5.text-center Trásmites y gestión del servicio de #[i hosting]
+                h5.text-center Trámites y gestión del servicio de #[i hosting]
           .BG01.p-4
             .row.justify-content-center.mb-4
               .col-10
@@ -179,7 +179,7 @@
           .row.justify-content-center
             .col-lg-10
               figure.mb-4
-                img.mb-4(src='@/assets/curso/tema1/img15.svg') 
+                img.mb-4(src='@/assets/curso/tema1/img17.svg') 
               .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
                 h5 Tabla 2.
                 span Herramientas de monitoreo #[i web]

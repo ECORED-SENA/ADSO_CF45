@@ -16,7 +16,7 @@
       .col-lg-8.mb-4
         p.text-center.mb-0 A continuación, conozca los pasos para publicar un sitio #[i web]. Procure llevar registro de los aspectos más relevantes en su libreta personal de apuntes:
     
-    ImagenInfograficaB.color-acento-contenido.mb-5(data-aos="flip-up")
+    ImagenInfograficaB.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema4/img03.png')

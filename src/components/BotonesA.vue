@@ -51,7 +51,7 @@ export default {
         pos_y: '2.7%',
         titulo: 'Transferencia de archivos',
         texto1:
-          'Para publicar las aplicaciones <em>web</em> y que estén disponibles en Internet, se deben transferir los archivos desde la máquina local hacia el servidor encargado de alojarlos en Internet, es decir el <em>host</em>.',
+          'Para publicar las aplicaciones "web" y que estén disponibles en Internet, se deben transferir los archivos desde la máquina local hacia el servidor encargado de alojarlos en Internet, es decir el "host".',
       },
       {
         img: require('@/assets/curso/botones/img08.svg'),
@@ -60,7 +60,7 @@ export default {
         pos_y: '2.7%',
         titulo: 'Credenciales de acceso',
         texto1:
-          'Para transferir los archivos, generalmente, los servicios de <em>hosting</em> proveen a sus clientes autorizados unas credenciales de acceso y algunas aplicaciones para facilitar el traslado de los archivos, y entre las aplicaciones estándar se debe encontrar una aplicación de FTP.',
+          'Para transferir los archivos, generalmente, los servicios de "hosting" proveen a sus clientes autorizados unas credenciales de acceso y algunas aplicaciones para facilitar el traslado de los archivos, y entre las aplicaciones estándar se debe encontrar una aplicación de FTP.',
       },
     ],
   }),
