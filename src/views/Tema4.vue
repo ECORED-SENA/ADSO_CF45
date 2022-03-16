@@ -21,7 +21,7 @@
         figure
           img(src='@/assets/curso/tema4/img03.png')
       
-      div(x="28%" y="52%" tooltip="tooltip Alistamiento" numero="+")
+      div(x="28%" y="52%" tooltip="Alistamiento" numero="+")
         .row.justify-content-center
           .col-8.BG06.p-4             
             h5 <span style="color:#039BE5 !important; font-weight: bold;">Alistamiento</span>

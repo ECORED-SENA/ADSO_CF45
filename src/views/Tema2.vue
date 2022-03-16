@@ -21,7 +21,7 @@
 
     figure.mb-5(data-aos="flip-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/zj3yQ9nqCf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/jBI5pfeySiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center.mb-5
       .col-lg-10.BG03.p-0
